@@ -9,7 +9,11 @@ function Card(props) {
       <div className="card-body">
         <div className="row">
           <div className="col-4 text-center">
-            <img className="profile-picture" src={data.photo.url}  alt={data.name}/>
+            <img
+              className="profile-picture"
+              src={data.photo.url}
+              alt={data.name}
+            />
           </div>
           <div className="col-8">
             <div className="m-2">
@@ -24,6 +28,15 @@ function Card(props) {
             </div>
             <div className="m-2">
               <p>{preview.substring(0, 100)}..</p>
+            </div>
+            <div className="m-2">
+              <p
+                className="text-end text-danger
+
+"
+              >
+                <b>{data.price.formatted}</b>
+              </p>
             </div>
           </div>
         </div>
