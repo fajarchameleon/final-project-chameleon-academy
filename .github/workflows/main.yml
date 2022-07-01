@@ -3,10 +3,10 @@ on:
     branches:
       - main
 
-name: 🚀 Deploy website on artcara
+name: 🚀 Deploy website on chameleon
 jobs:
   web-deploy:
-    name: 🎉 Deploy on artcara
+    name: 🎉 Deploy on chameleon
     runs-on: ubuntu-latest
     steps:
     - name: 🚚 Get latest code
