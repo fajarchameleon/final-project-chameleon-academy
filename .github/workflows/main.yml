@@ -32,4 +32,4 @@ jobs:
         username: u527245759
         password: Sidikpajar2
         local-dir:  build/
-        server-dir: /public_html/final-test.ayambakarbufajar.com/
+        server-dir: /final-test.ayambakarbufajar.com/
