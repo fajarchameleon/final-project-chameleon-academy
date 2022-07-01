@@ -9,7 +9,7 @@ function Card(props) {
       <div className="card-body">
         <div className="row">
           <div className="col-4 text-center">
-            <img className="profile-picture" src={data.photo.url} />
+            <img className="profile-picture" src={data.photo.url}  alt={data.name}/>
           </div>
           <div className="col-8">
             <div className="m-2">
