@@ -1,6 +1,6 @@
 import React from 'react';
 
-function SearchingTemplate(props) {
+function SearchingDoctorFinder(props) {
   return (
     <div>
       Searching doctor finder
@@ -8,4 +8,4 @@ function SearchingTemplate(props) {
   );
 }
 
-export default SearchingTemplate;
+export default SearchingDoctorFinder;

@@ -1,9 +1,8 @@
-import React from 'react';
+import React from "react";
 
 function Card(props) {
-  const {data} = props;
+  const { data } = props;
   let preview = data.about_preview.replace(/&nbsp;/g, " ");
-  console.log(data)
   return (
     <div className="card card-detail">
       <div className="card-body">

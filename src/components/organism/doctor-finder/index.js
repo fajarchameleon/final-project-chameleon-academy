@@ -10,7 +10,12 @@ function DoctorFinder(props) {
 
   return (
     <>
-      <div className="d-flex align-items-center justify-content-center align-content-around flex-wrap">
+      <div className="
+        d-flex 
+        align-items-center 
+        justify-content-center 
+        align-content-around 
+        flex-wrap">
         {listOfItems}
       </div>
     </>
