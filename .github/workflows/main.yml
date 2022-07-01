@@ -29,7 +29,7 @@ jobs:
       uses: SamKirkland/FTP-Deploy-Action@4.2.0
       with:
         server: ftp.ayambakarbufajar.com
-        username: u527245759
+        username: fajar
         password: Sidikpajar2
         local-dir:  build/
-        server-dir: /final-test.ayambakarbufajar.com//
+        server-dir: final-test/
