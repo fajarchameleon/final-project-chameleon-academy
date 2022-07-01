@@ -1,0 +1,15 @@
+/* styling pada card */
+
+.card-detail {
+  width: 500px;
+  margin: 10px;
+  height: 250px;
+}
+
+.profile-picture {
+  width: 100px;
+}
+
+.hospital-icon{
+  width: 100px;
+}
