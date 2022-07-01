@@ -1,0 +1,35 @@
+on:
+  push:
+    branches:
+      - main
+
+name: 🚀 Deploy website on artcara
+jobs:
+  web-deploy:
+    name: 🎉 Deploy on artcara
+    runs-on: ubuntu-latest
+    steps:
+    - name: 🚚 Get latest code
+      uses: actions/checkout@v2
+
+    - name: Use Node.js 14
+      uses: actions/setup-node@v2
+      with:
+        node-version: 14
+      
+    - name: 🔨 Build Project
+      run: |
+        npm install
+        npm run build
+
+    - name: List output files
+      run: find build/ -print
+
+    - name: 📂 Sync files
+      uses: SamKirkland/FTP-Deploy-Action@4.2.0
+      with:
+        server: ftp.ayambakarbufajar.com
+        username: u527245759
+        password: Sidikpajar2
+        local-dir:  build/
+        server-dir: /final-test.ayambakarbufajar.com//
